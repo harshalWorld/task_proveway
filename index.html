@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>YAY! It's BOGO</h1>
+    </header>
+    <main>
+        <section class="offer">
+            <label class="offer-option">
+                <input type="radio" name="units" checked>
+                <div class="offer-details">
+                    <span>1 Unit</span>
+                    <span class="discount">10% Off</span>
+                    <span class="price">$10.00 USD</span>
+                    <span class="old-price">$24.00 USD</span>
+                </div>
+            </label>
+        </section>
+        <section class="offer popular">
+            <label class="offer-option">
+                <input type="radio" name="units">
+                <div class="offer-details">
+                    <span>2 Units</span>
+                    <span class="discount">20% Off</span>
+                    <span class="price">$18.00 USD</span>
+                    <span class="old-price">$24.00 USD</span>
+                </div>
+                <div class="selection">
+                    <label>Size</label>
+                    <select>
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label>Colour</label>
+                    <select>
+                        <option>Black</option>
+                        <option>White</option>
+                    </select>
+                </div>
+            </label>
+        </section>
+        <section class="offer">
+            <label class="offer-option">
+                <input type="radio" name="units">
+                <div class="offer-details">
+                    <span>3 Units</span>
+                    <span class="discount">30% Off</span>
+                    <span class="price">$24.00 USD</span>
+                    <span class="old-price">$24.00 USD</span>
+                </div>
+            </label>
+        </section>
+        <div class="cart">
+            <p>Free Delivery</p>
+            <p>Total: <span class="total-price">$18.00 USD</span></p>
+            <button id="addToCart">+ Add to Cart</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
